@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Transient;
 
+import org.hibernate.annotations.Type;
+
 @Entity
 public class Sale {
 
@@ -21,6 +23,7 @@ public class Sale {
 	private Integer productDiscountedPrice;
 	private String productOffer;
 	@Lob
+	@Type(type = "org.hibernate.type.ImageType")
 	private byte[] productImage;
 	@Transient
 	private String saleBase64Image;
