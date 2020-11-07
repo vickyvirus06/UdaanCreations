@@ -11,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Transient;
 
+import org.hibernate.annotations.Type;
+
 @Entity
 public class Product {
 
@@ -22,6 +24,7 @@ public class Product {
 	private String productQuantity;
 	private Integer productPrice;
 	@Lob
+	@Type(type = "org.hibernate.type.ImageType")
 	private byte[] productImage;
 	@Transient
 	private String productBase64Image;

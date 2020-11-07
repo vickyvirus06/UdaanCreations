@@ -13,6 +13,7 @@ import com.vickyvirus.udaan.admin.entity.Sale;
 import com.vickyvirus.udaan.entity.Product;
 
 @Repository
+@Transactional
 public interface ProductRepository extends JpaRepository<Product, Integer>{
 
 	@Query("from Product where product_id != ?1")
