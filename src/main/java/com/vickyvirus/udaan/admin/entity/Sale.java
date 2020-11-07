@@ -28,7 +28,6 @@ public class Sale {
 	@Transient
 	private String saleBase64Image;
 	 
-	 
     @Transient
     public String getSaleBase64Image() {
     	 saleBase64Image = Base64.getEncoder().encodeToString(this.productImage);
