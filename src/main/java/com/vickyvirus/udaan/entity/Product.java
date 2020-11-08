@@ -22,6 +22,7 @@ public class Product {
 	private Integer productId;
 	private String productName;
 	private String productQuantity;
+	@Column(columnDefinition = "integer default 0")
 	private Integer productPrice;
 	@Lob
 	@Type(type = "org.hibernate.type.ImageType")
