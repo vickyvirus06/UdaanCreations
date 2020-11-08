@@ -50,12 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="top_bg">
 	<div class="container">
 		<div class="header_top-sec">
-			<div class="top_right">
-				<ul>
-					<li>Contact &nbsp;</li>+91 970 250 3220 /
-					
-				</ul>
-			</div>
+			
 			<div class="top_left">
 				<ul>
 					<li style="font-size: 18px;">rnas_udaancreations@yahoo.com</li>

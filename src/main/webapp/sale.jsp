@@ -56,12 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="top_bg">
 	<div class="container">
 		<div class="header_top-sec">
-			<div class="top_right">
-				<ul>
-					<li>Contact &nbsp;</li>+91 970 250 3220 /
-					
-				</ul>
-			</div>
+			
 			<div class="top_left">
 				<ul>
 					<li style="font-size: 18px;">rnas_udaancreations@yahoo.com</li>
@@ -131,10 +126,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p style="font-size: 28px;font-weight: bolder;">${SINGLESALEPRODUCT.productName}</p>
 			<c:choose>
             										<c:when test="${not empty SINGLESALEPRODUCT.productDiscountedPrice}">
-												<h4 style="color:green;font-size: 28px;">$ ${SINGLESALEPRODUCT.productDiscountedPrice} <span style="text-decoration: line-through;">${SINGLESALEPRODUCT.productPrice}</span></h4>
+												<h4 style="color:green;font-size: 28px;">₹ ${SINGLESALEPRODUCT.productDiscountedPrice} <span style="text-decoration: line-through;">₹ ${SINGLESALEPRODUCT.productPrice}</span></h4>
 												</c:when>
 												<c:otherwise>
-												<h4 style="color:green;font-size: 28px;">$ ${SINGLESALEPRODUCT.productPrice} </h4>	
+												<h4 style="color:green;font-size: 28px;">₹ ${SINGLESALEPRODUCT.productPrice} </h4>	
 												</c:otherwise>
 												</c:choose>
 												
@@ -229,10 +224,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<p style="font-size: 18px;font-weight: bolder;">${saleProduct.productName}</p>
 												<c:choose>
             										<c:when test="${not empty saleProduct.productDiscountedPrice}">
-												<h4 style="color:green;font-size: 18px;">$ ${saleProduct.productDiscountedPrice} <span>${saleProduct.productPrice}</span></h4>
+												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productDiscountedPrice} <span>₹ ${saleProduct.productPrice}</span></h4>
 												</c:when>
 												<c:otherwise>
-												<h4 style="color:green;font-size: 18px;">$ ${saleProduct.productPrice} </h4>	
+												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productPrice} </h4>	
 												</c:otherwise>
 												</c:choose>
 												

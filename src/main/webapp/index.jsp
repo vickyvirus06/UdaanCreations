@@ -55,12 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="top_bg">
 	<div class="container">
 		<div class="header_top-sec">
-			<div class="top_right">
-				<ul>
-					<li>Contact &nbsp;</li>+91 970 250 3220 /
-					
-				</ul>
-			</div>
+			
 			<div class="top_left">
 				<ul>
 					<li style="font-size: 18px;">rnas_udaancreations@yahoo.com</li>
@@ -204,7 +199,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="snipcart-thumb">
 												<a href="singleProduct?productId=${product.productId}" ><img title=" " alt=" "src="data:image/jpg;base64,${product.productBase64Image}" width="150px" height="150px"></a>		
 													<p style="font-size: 18px;font-weight: bolder;">${product.productName}</p>
-												<h4 style="color:green;font-size: 18px;">$ ${product.productPrice} <span></span></h4>
+												<h4 style="color:green;font-size: 18px;">₹ ${product.productPrice} <span></span></h4>
 											
 											</div>
 											</div>
@@ -244,10 +239,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<p style="font-size: 18px;font-weight: bolder;">${saleProduct.productName}</p>
 												<c:choose>
             										<c:when test="${not empty saleProduct.productDiscountedPrice}">
-												<h4 style="color:green;font-size: 18px;">$ ${saleProduct.productDiscountedPrice} <span>${saleProduct.productPrice}</span></h4>
+												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productDiscountedPrice} <span>${saleProduct.productPrice}</span></h4>
 												</c:when>
 												<c:otherwise>
-												<h4 style="color:green;font-size: 18px;">$ ${saleProduct.productPrice} </h4>	
+												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productPrice} </h4>	
 												</c:otherwise>
 												</c:choose>
 											
