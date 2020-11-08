@@ -117,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="col-md-4 contact-left">
 				<h3>Address</h3>
-				<span style="color:red;">Nilesh Shinde <br></span></p>
+				<span style="color:red;">Amrutrao and Sons<br></span></p>
 				<p style="font-weight: bold;color: black">Shop No 4 Plot No 23 Shubham Complex <br>Kamothe Panvel Raigarh 
 					</p>
 				<ul>

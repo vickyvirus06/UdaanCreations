@@ -102,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  </div>
 </div>
 <div class="about-section">
-  <h1>About Us </h1>
+  <h1>About Us </h1><br>
   <p>At Udaan Creations we believe in Team work.</p>
   <p>We Work Together . We grow Together</p>
 </div>
@@ -113,29 +113,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Rajashree" style="width:100%">
-      <div class="container">
-        <h2>Mrs Rajashree Shinde</h2>
-        <p class="title">Designer</p>
-        <p>B.S.C completed . Passionate designer of artificial rangoli. <br>Hobby to create and design and make home a sweet home.  </p>
-        <p>xyz@example.com</p>
-        
-      </div>
+      <img src="images/aboutus.jpeg" alt="Rajashree" style="width:100%;height: 30%;">
+      
     </div>
   </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="Uma" style="width:100%">
-      <div class="container">
-        <h2>Mrs Uma Sawant</h2>
-        <p class="title">Designer</p>
-        <p>Designer of all creations</p>
-        <p>xyz@example.com</p>
+  
+      
+        <span style="color: blue;">Mrs Uma Sawant and </span><span style="color: red;">Mrs Rajashree Shinde</span>
+       
+        <p>Creator of all Designs</p>
+       
         
-      </div>
+      
     </div>
-  </div>
-</div>
+  
 </body>
 </html>
