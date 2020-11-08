@@ -239,7 +239,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<p style="font-size: 18px;font-weight: bolder;">${saleProduct.productName}</p>
 												<c:choose>
             										<c:when test="${not empty saleProduct.productDiscountedPrice}">
-												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productDiscountedPrice} <span>${saleProduct.productPrice}</span></h4>
+												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productDiscountedPrice} <span>₹ ${saleProduct.productPrice}</span></h4>
 												</c:when>
 												<c:otherwise>
 												<h4 style="color:green;font-size: 18px;">₹ ${saleProduct.productPrice} </h4>	
