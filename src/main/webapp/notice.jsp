@@ -85,20 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </marquee>
      
     </header>
-<header   style ="background:  #22242a;width: 100%;margin-top: 1%;" >
-<marquee>
-      <!--logo start-->
-      <a href="home.jsp" class="logo" style="
-    font-size: 24px;
-    color: #f2f2f2;
-    float: left;
-    margin-top: 15px;
-    text-transform: uppercase;"><b style="font-weight: 400;color: red">Required Distrubutors for Udaan Creations Items.. </b></a>
-      <!--logo end-->
-      </marquee>
-      
-    </header>
-		
+
 		<div class="clearfix"></div>	
 	</div>
 </div>
