@@ -113,14 +113,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
   <div class="column">
     <div class="card">
-      <img src="images/aboutus.jpeg" alt="Rajashree" style="width:100%;height: 30%;">
+      <img src="images/demo" alt="Rajashree" style="width:100%;height: 30%;">
       
     </div>
   </div>
 
   
       
-        <span style="color: blue;">Mrs Uma Sawant and </span><span style="color: red;">Mrs Rajashree Shinde</span>
+        </span><span style="color: red;">Mrs Rajashree Shinde</span>
        
         <p>Creator of all Designs</p>
        

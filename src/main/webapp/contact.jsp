@@ -121,7 +121,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p style="font-weight: bold;color: black">Shop No 4 Plot No 23 Shubham Complex <br>Kamothe Panvel Raigarh 
 					</p>
 				<ul>
-					<li style="font-weight: bold;color: black">Rajashree Shinde : +91 773 852 8143 / +91 773 803 1411 <br> Uma Sawant :  +91 976 781 0508 <br> Bhagyashree Shinde : +91 970 250 3220  </li>
+					<li style="font-weight: bold;color: black">Rajashree Shinde : +91 773 852 8143 / +91 773 803 1411 <br>  Bhagyashree Shinde : +91 970 250 3220  </li>
 					
 					<li style="font-weight: bold;color: black">rnas_udaancreations@yahoo.com</li>
 				</ul>
