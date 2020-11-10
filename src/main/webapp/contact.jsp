@@ -96,6 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li class="grid"><a class="color1" href="sale">Sale</a></li>
 			<li class="grid"><a class="color1" href="about_us.jsp">About Us</a></li>
 			<li class="active grid"><a class="color1" href="contact">Contact</a></li>	
+			<li  class="grid"><a style="background-color: red;" class="color1" href="notice.jsp" ><span style="color: white;font-size: medium;">Notice</span></a></li>
 			<li class="grid"><a class="color1" href="#">Tutorial</a></li>								
 		</ul>  <div class="search">
 				 <form action="searchProduct" method="get">

@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/jspstyle.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -92,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     color: #f2f2f2;
     float: left;
     margin-top: 15px;
-    text-transform: uppercase;"><b style="font-weight: 900;color: red">Required Distrubutors for Udaan Creations Items.. </b></a>
+    text-transform: uppercase;"><b style="font-weight: 200;color: red">Required Distrubutors for Udaan Creations Items.. </b></a>
       <!--logo end-->
       </marquee>
       
@@ -113,6 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li class="grid"><a class="color1" href="sale">Sale</a></li>
 			<li class="grid"><a class="color1" href="about_us.jsp">About Us</a></li>
 			<li class="grid"><a class="color1" href="contact">Contact</a></li>	
+			<li  class="grid"><a style="background-color: red;" class="color1" href="notice.jsp" ><span style="color: white;font-size: medium;">Notice</span></a></li>
 			<li class="grid"><a class="color1" href="#">Tutorial</a></li>
 			
 		</ul> 

@@ -1,5 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,9 +23,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/jspstyle.css" rel="stylesheet" type="text/css" media="all" />
-<link href="style1.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -39,7 +47,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/simpleCart.min.js"> </script>
 <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 </head>
+	
 <body>
+<!-- header -->
+	
+<!-- //header -->
+<!-- top-header -->
 <div class="top_bg">
 	<div class="container">
 		<div class="header_top-sec">
@@ -70,6 +83,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     text-transform: uppercase;"><b style="font-weight: 900;">Udaan <span style="color: #4ECDC4;">Creations</span></b></a>
       <!--logo end-->
       </marquee>
+     
+    </header>
+<header   style ="background:  #22242a;width: 100%;margin-top: 1%;" >
+<marquee>
+      <!--logo start-->
+      <a href="home.jsp" class="logo" style="
+    font-size: 24px;
+    color: #f2f2f2;
+    float: left;
+    margin-top: 15px;
+    text-transform: uppercase;"><b style="font-weight: 400;color: red">Required Distrubutors for Udaan Creations Items.. </b></a>
+      <!--logo end-->
+      </marquee>
       
     </header>
 		
@@ -83,12 +109,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <div class="menu_sec">
 		 <!-- start header menu -->
 		<ul class="megamenu skyblue">
-			<li class="grid"><a class="color1" href="home">Home</a></li>
+			<li class=" grid"><a class="color1" href="home">Home</a></li>
 			<li class="grid"><a class="color1" href="products">Products</a></li>
 			<li class="grid"><a class="color1" href="sale">Sale</a></li>
-			<li class="active grid"><a class="color1" href="about_us.jsp">About Us</a></li>
+			<li class="grid"><a class="color1" href="about_us.jsp">About Us</a></li>
 			<li class="grid"><a class="color1" href="contact">Contact</a></li>	
-			<li  class="grid"><a style="background-color: red;" class="color1" href="notice.jsp" ><span style="color: white;font-size: medium;">Notice</span></a></li>
+			<li  class="active grid"><a  class="color1" href="notice.jsp" ><span style="color: white;font-size: medium;">Notice</span></a></li>
 			<li class="grid"><a class="color1" href="#">Tutorial</a></li>
 			
 		</ul> 
@@ -102,33 +128,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 	  </div>
 </div>
-<div class="about-section">
-  <h1>About Us </h1><br>
-  <p>At Udaan Creations we believe in Team work.</p>
-  <p>We Work Together . We grow Together</p>
-</div>
+<!---->
 
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
- 
-
-  <div class="column">
-    <div class="card">
-      <img src="images/demo" alt="Rajashree" style="width:100%;height: 30%;">
-      
-    </div>
-  </div>
-
-  
-      
-        </span><span style="color: red;">Mrs Rajashree Shinde</span>
-       
-        <p>Creator of all Designs</p>
-       
-        
-      
-    </div>
-  							
+							
 							
 	<div class="footer">
 		<div class="container">
@@ -148,5 +150,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-copy">
 		<p>© 2020 Udaan Store. All rights reserved | Design by Vicky Poojari</p>
 	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
 </body>
 </html>
