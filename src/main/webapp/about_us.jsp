@@ -128,7 +128,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         
       
     </div>
-  							
+    
+    <div class="row">
+ 
+
+  <div class="column">
+    <div class="card">
+      <img src="images/Uma Sawant.jpeg" alt="Uma Sawant" style="width:100%;height: 30%;">
+      
+    </div>
+  </div>
+
+  
+      
+        </span><span style="color: red;">Mrs Uma Sawant</span>
+       
+        <p>Creator of all Designs</p>
+       
+        
+      
+    </div>
+  <div class="row">
+ 
+
+  <div class="column">
+    <div class="card">
+      <img src="images/sanika.jpeg" alt="Sanika" style="width:100%;height: 30%;">
+      
+    </div>
+  </div>
+
+  
+      
+        </span><span style="color: red;">Mrs Sanika</span>
+       
+        <p>Sales Manager - Mumbai South</p>
+       
+        
+      
+    </div>
 							
 	<div class="footer">
 		<div class="container">
